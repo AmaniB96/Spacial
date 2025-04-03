@@ -83,10 +83,7 @@ nav
     .sec1text
         width: 50%
         h3
-            font-size:40px
-            font-weight: 600
-            align-items: baseline
-            color: $dark
+            @include h3
         p
             font-size: 21px
             color: #0b000065
@@ -106,10 +103,7 @@ nav
         width: 100%
         text-align: center 
         h3
-            font-size:40px
-            font-weight: 600
-            align-items: baseline
-            color: $dark
+            @include h3
         p
             font-size: 21px
             color: #0b000065
@@ -152,3 +146,67 @@ nav
         padding-right: 30px
         font-weight: bolder
      
+.sec3
+    height: 100vh
+    margin-left: 13vw
+    margin-right: 13vw
+    .sec3title
+        margin-top: 10vh
+        margin-bottom: 10vh
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+        h3
+            @include h3
+        p
+            font-size: 21px
+            color: #0b000065
+    .sec3body1
+        img
+            margin-right: 30px
+            margin-left: 30px
+            border-radius: 50%
+            border: solid #c8c3c37d 8px
+        .sec3row1
+            display: flex
+            gap: 20px
+            .sec3cards
+                display: flex
+                .cardcontent
+                    display: flex
+                    flex-direction: column
+                    text-align: end
+                .txtcard
+                    font-size: 12px
+            .sec3cards2
+                display: flex
+                .cardcontent
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                .txtcard
+                    font-size: 12px
+        .sec3row2
+            display: flex
+            gap: 20px
+            .sec3cards
+                display: flex
+                gap: 25px
+                .cardcontent
+                    display: flex
+                    flex-direction: column
+                    text-align: end
+                .txtcard
+                    font-size: 12px
+            .sec3cards2
+                display: flex
+                
+                .cardcontent
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                .txtcard
+                    font-size: 12px
+    
+            
