@@ -89,10 +89,66 @@ nav
             color: $dark
         p
             font-size: 21px
+            color: #0b000065
     .sec1text2
         width: 50%
         p
             font-size: 13px
 
-        
+.sec2
+    height: 120vh
+    background-color: $grey
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .sec2title
+        width: 100%
+        text-align: center 
+        h3
+            font-size:40px
+            font-weight: 600
+            align-items: baseline
+            color: $dark
+        p
+            font-size: 21px
+            color: #0b000065
+    
+    .bigcards
+        display: flex
+        justify-content: center
+        gap: 30px
+        margin-left: 13vw
+        margin-right: 13vw
+        margin-top:10vh
+        .card 
+            img
+                height: 50vh
+                width: 100%
+            .card-body
+                height: 13vh
+                display: flex
+                justify-content: center
+                align-items: center
+                font-weight: 600
+                font-size: 18px
 
+.divbtn
+    display: flex
+    justify-content: center
+    gap: 15px
+    align-items: center
+    height: 15vh
+    margin-top: 4vh
+    .sec2redbtn
+        @include btn
+    .sec2blackbtn
+        background-color: $dark
+        border-radius: 5px
+        color: white
+        border: none
+        padding: 15px
+        padding-left: 30px
+        padding-right: 30px
+        font-weight: bolder
+     
