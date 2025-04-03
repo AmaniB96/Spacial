@@ -22326,6 +22326,7 @@ body {
 header {
   background: linear-gradient(180deg, rgba(50, 48, 55, 0.7) 0%, rgba(50, 48, 55, 0.7)), url("../assets/img/banner.jpg");
   height: 80vh;
+  background-attachment: fixed;
 }
 
 nav {
@@ -22391,6 +22392,33 @@ nav .menudiv .menu {
   padding-left: 30px;
   padding-right: 30px;
   font-weight: bolder;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  height: 60vh;
+}
+.sec1 .sec1text {
+  width: 50%;
+}
+.sec1 .sec1text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  align-items: baseline;
+  color: #323037;
+}
+.sec1 .sec1text p {
+  font-size: 21px;
+}
+.sec1 .sec1text2 {
+  width: 50%;
+}
+.sec1 .sec1text2 p {
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
