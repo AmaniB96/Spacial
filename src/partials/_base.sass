@@ -5,4 +5,50 @@
 @use '../partials/_icons' as *
 
 @use '../../node_modules/bootstrap/scss/bootstrap'
+
+.montserrat
+  font-family: "Montserrat", sans-serif
+  font-optical-sizing: auto
+  font-weight: 400
+  font-style: normal
+
+
+body
+    font-family: "Montserrat"
+    text-transform: uppercase
     
+
+header
+    background-image: url('../assets/img/banner.jpg')
+    height: 80vh
+
+nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-left: 40px
+    margin-right: 40px
+    height: 8vh
+    .logo
+        color: white
+        height: auto
+        p
+            display: flex
+            align-items: center
+            margin:0
+            padding:0
+            span
+                font-weight: bolder
+    .menudiv
+        width: 20%
+        height: auto
+        
+
+        .menu
+            display: flex
+            justify-content: space-between
+            align-items: center
+            list-style-type: none
+            color: white
+            margin: 0
+            padding: 0
