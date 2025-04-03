@@ -19,7 +19,7 @@ body
     
 
 header
-    background-image: url('../assets/img/banner.jpg')
+    background: linear-gradient(180deg, rgba(50, 48, 55, 0.7) 0%, rgba(50, 48, 55, 0.7)),url('../assets/img/banner.jpg')
     height: 80vh
 
 nav
@@ -52,3 +52,25 @@ nav
             color: white
             margin: 0
             padding: 0
+        
+.hero
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap:25px
+    color: white
+    height: 72vh
+    h1
+        font-weight: bolder
+        font-size: 45px
+    p
+        text-align: center
+        color: #ffffff85
+        font-size: 20px
+        width: 70%
+    button
+        @include btn
+        
+        
+
