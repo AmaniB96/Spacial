@@ -22606,4 +22606,42 @@ nav .menudiv .menu {
   font-size: 12px;
 }
 
+.sec4 {
+  height: 45vh;
+  background: linear-gradient(180deg, rgba(50, 48, 55, 0.7) 0%, rgba(50, 48, 55, 0.7)), url("../assets/img/banner.jpg");
+  background-attachment: fixed;
+  background-position: 25% 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: white;
+}
+.sec4 .divsec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: white;
+}
+.sec4 .divsec4 h3 {
+  font-size: 40px;
+  font-weight: 600;
+  align-items: baseline;
+  color: #323037;
+  color: white;
+}
+.sec4 .divsec4 button {
+  background-color: #f32853;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map */
