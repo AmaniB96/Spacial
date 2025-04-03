@@ -22644,4 +22644,25 @@ nav .menudiv .menu {
   font-weight: bolder;
 }
 
+footer {
+  height: 45vh;
+}
+footer .icones {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: rgba(11, 0, 0, 0.3960784314);
+  height: 60%;
+}
+footer .foot {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: rgba(11, 0, 0, 0.3960784314);
+  height: 40%;
+}
+
 /*# sourceMappingURL=style.css.map */
