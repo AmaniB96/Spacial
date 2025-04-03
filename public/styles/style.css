@@ -22526,6 +22526,7 @@ nav .menudiv .menu {
 .sec3 .sec3body1 .sec3row1 {
   display: flex;
   gap: 20px;
+  margin-bottom: 60px;
 }
 .sec3 .sec3body1 .sec3row1 .sec3cards {
   display: flex;
@@ -22535,7 +22536,14 @@ nav .menudiv .menu {
   flex-direction: column;
   text-align: end;
 }
-.sec3 .sec3body1 .sec3row1 .sec3cards .txtcard {
+.sec3 .sec3body1 .sec3row1 .sec3cards .cardcontent .titlecard {
+  font-weight: 600;
+}
+.sec3 .sec3body1 .sec3row1 .sec3cards .cardcontent .stcard {
+  font-size: 12px;
+  color: rgba(11, 0, 0, 0.3960784314);
+}
+.sec3 .sec3body1 .sec3row1 .sec3cards .cardcontent .txtcard {
   font-size: 12px;
 }
 .sec3 .sec3body1 .sec3row1 .sec3cards2 {
@@ -22546,7 +22554,14 @@ nav .menudiv .menu {
   flex-direction: column;
   align-items: flex-start;
 }
-.sec3 .sec3body1 .sec3row1 .sec3cards2 .txtcard {
+.sec3 .sec3body1 .sec3row1 .sec3cards2 .cardcontent .titlecard {
+  font-weight: 600;
+}
+.sec3 .sec3body1 .sec3row1 .sec3cards2 .cardcontent .stcard {
+  font-size: 12px;
+  color: rgba(11, 0, 0, 0.3960784314);
+}
+.sec3 .sec3body1 .sec3row1 .sec3cards2 .cardcontent .txtcard {
   font-size: 12px;
 }
 .sec3 .sec3body1 .sec3row2 {
@@ -22562,7 +22577,14 @@ nav .menudiv .menu {
   flex-direction: column;
   text-align: end;
 }
-.sec3 .sec3body1 .sec3row2 .sec3cards .txtcard {
+.sec3 .sec3body1 .sec3row2 .sec3cards .cardcontent .titlecard {
+  font-weight: 600;
+}
+.sec3 .sec3body1 .sec3row2 .sec3cards .cardcontent .stcard {
+  font-size: 12px;
+  color: rgba(11, 0, 0, 0.3960784314);
+}
+.sec3 .sec3body1 .sec3row2 .sec3cards .cardcontent .txtcard {
   font-size: 12px;
 }
 .sec3 .sec3body1 .sec3row2 .sec3cards2 {
@@ -22573,7 +22595,14 @@ nav .menudiv .menu {
   flex-direction: column;
   align-items: flex-start;
 }
-.sec3 .sec3body1 .sec3row2 .sec3cards2 .txtcard {
+.sec3 .sec3body1 .sec3row2 .sec3cards2 .cardcontent .titlecard {
+  font-weight: 600;
+}
+.sec3 .sec3body1 .sec3row2 .sec3cards2 .cardcontent .stcard {
+  font-size: 12px;
+  color: rgba(11, 0, 0, 0.3960784314);
+}
+.sec3 .sec3body1 .sec3row2 .sec3cards2 .cardcontent .txtcard {
   font-size: 12px;
 }
 
