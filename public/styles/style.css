@@ -22840,8 +22840,8 @@ footer .foot {
     margin-bottom: 30px;
   }
   .sec3 .sec3body1 .sec3row1 .sec3cards img, .sec3 .sec3body1 .sec3row1 .sec3cards2 img, .sec3 .sec3body1 .sec3row2 .sec3cards img, .sec3 .sec3body1 .sec3row2 .sec3cards2 img {
-    height: 25vh;
-    wight: 25vh;
+    height: 15vh;
+    wight: 15vh;
   }
   .sec3 .sec3body1 .sec3row1 .sec3cards .cardcontent .txtcard, .sec3 .sec3body1 .sec3row1 .sec3cards2 .cardcontent .txtcard, .sec3 .sec3body1 .sec3row2 .sec3cards .cardcontent .txtcard, .sec3 .sec3body1 .sec3row2 .sec3cards2 .cardcontent .txtcard {
     font-size: 10px;
