@@ -22721,8 +22721,12 @@ footer .foot {
     width: 45%;
     margin-bottom: 20px;
   }
+  .sec2 .bigcards .card img {
+    height: 30vh;
+  }
   .sec2 .bigcards .card .card-body {
     font-size: 16px;
+    height: 15vh;
   }
   .sec3 {
     height: auto;
