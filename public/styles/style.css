@@ -22665,4 +22665,196 @@ footer .foot {
   height: 40%;
 }
 
+@media (max-width: 1024px) {
+  header {
+    height: 60vh;
+  }
+  nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  nav .menudiv {
+    width: 30%;
+  }
+  nav .logo p {
+    font-size: 18px;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .sec1 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 0;
+  }
+  .sec1 .sec1text, .sec1 .sec1text2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec1 .sec1text h3, .sec1 .sec1text2 h3 {
+    font-size: 34px;
+  }
+  .sec1 .sec1text p, .sec1 .sec1text2 p {
+    font-size: 18px;
+  }
+  .sec2 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .sec2 .sec2title h3 {
+    font-size: 34px;
+  }
+  .sec2 .sec2title p {
+    font-size: 18px;
+  }
+  .sec2 .bigcards {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    flex-wrap: wrap;
+  }
+  .sec2 .bigcards .card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .sec2 .bigcards .card .card-body {
+    font-size: 16px;
+  }
+  .sec3 {
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 40px 0;
+  }
+  .sec3 .sec3title h3 {
+    font-size: 34px;
+  }
+  .sec3 .sec3title p {
+    font-size: 18px;
+  }
+  .sec3 .sec3body1 .sec3cards .cardcontent .titlecard, .sec3 .sec3body1 .sec3cards2 .cardcontent .titlecard {
+    font-size: 15px;
+  }
+  .sec3 .sec3body1 .sec3cards .cardcontent .stcard, .sec3 .sec3body1 .sec3cards .cardcontent .txtcard, .sec3 .sec3body1 .sec3cards2 .cardcontent .stcard, .sec3 .sec3body1 .sec3cards2 .cardcontent .txtcard {
+    font-size: 11px;
+  }
+  .sec4 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .sec4 .divsec4 h3 {
+    font-size: 34px;
+  }
+  footer {
+    height: auto;
+    padding: 30px 0;
+  }
+  footer .icones {
+    height: auto;
+    padding-bottom: 30px;
+    font-size: 35px;
+  }
+  footer .foot {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    height: 60vh;
+  }
+  nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    height: auto;
+  }
+  nav .logo {
+    margin-top: 10px;
+  }
+  nav .logo p {
+    font-size: 13px;
+    width: 200px;
+  }
+  nav .menudiv {
+    width: 100%;
+    height: 100%;
+  }
+  nav .menudiv .menu {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    height: 100%;
+  }
+  .hero {
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero p {
+    width: 90%;
+    font-size: 16px;
+  }
+  .sec1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .sec1 .sec1text2 p {
+    font-size: 12px;
+  }
+  .sec2 .bigcards {
+    flex-wrap: wrap;
+  }
+  .sec2 .bigcards .card {
+    height: 20vh;
+    width: 35vh;
+    height: 50vh;
+  }
+  .sec2 .bigcards .card .card-text {
+    font-size: 13px;
+  }
+  .sec2 .divbtn {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sec3 .sec3body1 .sec3row1, .sec3 .sec3body1 .sec3row2 {
+    flex-direction: column;
+  }
+  .sec3 .sec3body1 .sec3row1 .sec3cards, .sec3 .sec3body1 .sec3row1 .sec3cards2, .sec3 .sec3body1 .sec3row2 .sec3cards, .sec3 .sec3body1 .sec3row2 .sec3cards2 {
+    margin-bottom: 30px;
+  }
+  .sec3 .sec3body1 .sec3row1 .sec3cards img, .sec3 .sec3body1 .sec3row1 .sec3cards2 img, .sec3 .sec3body1 .sec3row2 .sec3cards img, .sec3 .sec3body1 .sec3row2 .sec3cards2 img {
+    height: 25vh;
+    wight: 25vh;
+  }
+  .sec3 .sec3body1 .sec3row1 .sec3cards .cardcontent .txtcard, .sec3 .sec3body1 .sec3row1 .sec3cards2 .cardcontent .txtcard, .sec3 .sec3body1 .sec3row2 .sec3cards .cardcontent .txtcard, .sec3 .sec3body1 .sec3row2 .sec3cards2 .cardcontent .txtcard {
+    font-size: 10px;
+  }
+  .sec4 .divsec4 {
+    width: 90%;
+  }
+  .sec4 .divsec4 h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  footer .icones {
+    flex-wrap: wrap;
+    font-size: 30px;
+    gap: 30px;
+  }
+  footer .foot {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
