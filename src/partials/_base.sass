@@ -16,6 +16,7 @@
 body
     font-family: "Montserrat"
     text-transform: uppercase
+    position: relative
     
 
 header
@@ -27,9 +28,15 @@ nav
     display: flex
     justify-content: space-between
     align-items: center
-    margin-left: 40px
-    margin-right: 40px
+    padding-left: 40px
+    padding-right: 40px
     height: 8vh
+    position: sticky
+    top:0
+    z-index: 10000
+    background: linear-gradient(180deg, rgba(50, 48, 55, 0.905) 0%, rgba(50, 48, 55, 0.056))
+    margin-top: -63px
+    width: 100%
     .logo
         color: white
         height: auto
