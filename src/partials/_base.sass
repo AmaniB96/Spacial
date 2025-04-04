@@ -89,6 +89,7 @@ nav
     height: 60vh
     .sec1text
         width: 50%
+        height: 70%
         h3
             @include h3
         p
@@ -96,6 +97,7 @@ nav
             color: #0b000065
     .sec1text2
         width: 50%
+        height: 70%
         p
             font-size: 13px
 
@@ -126,6 +128,9 @@ nav
             img
                 height: 50vh
                 width: 100%
+                opacity: 0.8
+            img:hover
+                opacity: 1
             .card-body
                 height: 13vh
                 display: flex
@@ -175,6 +180,11 @@ nav
             margin-left: 30px
             border-radius: 50%
             border: solid #c8c3c37d 8px
+            animation-name: zoom
+            animation-duration: 4s
+            animation-iteration-count: infinite
+            animation-direction: forward
+            animation-timing-function: ease-in-out
         .sec3row1
             display: flex
             gap: 20px
@@ -280,7 +290,23 @@ footer
         color: #0b000065
         height: 40%
 
-            
+button
+    opacity: 0.8
+button:hover
+    opacity: 1
+
+
+@keyframes zoom
+    0% 
+        transform: scale(1)
+    
+    50%
+        transform: scale(1.08)
+        
+    100%
+        transform: scale(1)
+        
+
 @media (max-width: 1024px)
     header
         height: 60vh

@@ -22411,6 +22411,7 @@ nav .menudiv .menu {
 }
 .sec1 .sec1text {
   width: 50%;
+  height: 70%;
 }
 .sec1 .sec1text h3 {
   font-size: 40px;
@@ -22424,6 +22425,7 @@ nav .menudiv .menu {
 }
 .sec1 .sec1text2 {
   width: 50%;
+  height: 70%;
 }
 .sec1 .sec1text2 p {
   font-size: 13px;
@@ -22462,6 +22464,10 @@ nav .menudiv .menu {
 .sec2 .bigcards .card img {
   height: 50vh;
   width: 100%;
+  opacity: 0.8;
+}
+.sec2 .bigcards .card img:hover {
+  opacity: 1;
 }
 .sec2 .bigcards .card .card-body {
   height: 13vh;
@@ -22529,6 +22535,11 @@ nav .menudiv .menu {
   margin-left: 30px;
   border-radius: 50%;
   border: solid rgba(200, 195, 195, 0.4901960784) 8px;
+  animation-name: zoom;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: ease-in-out;
 }
 .sec3 .sec3body1 .sec3row1 {
   display: flex;
@@ -22672,6 +22683,25 @@ footer .foot {
   height: 40%;
 }
 
+button {
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 1024px) {
   header {
     height: 60vh;
